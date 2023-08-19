@@ -1,36 +1,33 @@
 package model.wasteItems;
 
+// This class represents a Glass Bottle waste item
 public class GlassBottle extends WasteItem {
+
+    // Unique code for the Glass Bottle waste item
     private static final int code = 3;
+
+    // String indicating the bin that the Glass Bottle belongs to
     public static final String belongsTo = "Recyclable Containers Bin";
 
-    // Icons made by <a href="https://www.flaticon.com/authors/freepik"
-    // title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"
-    // title="Flaticon"> www.flaticon.com</a>
+    // Path to the image file of the Glass Bottle
+    // Icons made by Freepik from www.flaticon.com
     private static final String IMAGE_PATH = "src/data/images/waste_items/thin-bottle-of-water.png";
 
+    // Constructor to create a Glass Bottle waste item
     public GlassBottle(int x) {
-        super(x);
-        belongedBin = belongsTo;
-        codeNum = code;
-        this.name = "Glass bottle";
-        imagePath = IMAGE_PATH;
+        super(x); // Initialize the waste item with the x-coordinate
+        belongedBin = belongsTo; // Set the bin that the waste item belongs to
+        codeNum = code; // Set the code number
+        this.name = "Glass bottle"; // Set the name of the waste item
+        imagePath = IMAGE_PATH; // Set the image path
     }
 
+    // Get the path to the waste item image
     @Override
     protected String getPath() {
         return IMAGE_PATH;
     }
 
-//    @Override
-//    public void render(Graphics g) throws IOException {
-//        Color savedCol = g.getColor();
-//        g.setColor(Color.BLACK);
-//        Image i = ImageIO.read(new File(imagePath)).getScaledInstance(50,60,Image.SCALE_DEFAULT);
-//        g.drawImage(i,x,y,null);
-//        g.setColor(Color.WHITE);
-//        g.drawString(name,x,y + SIZE_Y);
-//        g.setColor(savedCol);
-//    }
-
+    // The render method is inherited from the WasteItem class and does not need to be overridden
+    // It will render the waste item image along with its name
 }
