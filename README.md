@@ -10,7 +10,6 @@
 - [How to Play](#how-to-play)
 - [Gameplay](#gameplay)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
