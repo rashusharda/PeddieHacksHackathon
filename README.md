@@ -17,7 +17,7 @@ The **Waste Sorting Game** aims to raise awareness about the importance of waste
 
 ## Features
 
-- Engaging gameplay that encourages players to improve their waste sorting skills.
+- Engaging gameplay that encourages players to improve their waste-sorting skills.
 - Different levels of difficulty to cater to players of varying skill levels.
 - Real-time feedback and scoring to keep players motivated.
 - Educational aspect that promotes responsible waste disposal and recycling.
@@ -26,11 +26,14 @@ The **Waste Sorting Game** aims to raise awareness about the importance of waste
 
 Follow these steps to set up and run the **Waste Sorting Game**:
 
-1. Ensure you have Java Development Kit (JDK) installed on your system.
-2. Download or clone this repository to your local machine.
-3. Open a terminal/command prompt and navigate to the project directory.
-4. Compile the Java source files by running the command:
-5. Run the game using the following command:
+1. Download the ZIP file from Github.
+2. Extract the files from the ZIP file.
+3. Ensure you have Java Development Kit (JDK) installed on your system.
+4. Ensure you have an IDE to run the file (for example: Visual Studio Code).
+5. Download or clone this repository to your local machine.
+6. Open a terminal/command prompt and navigate to the project directory.
+7. Compile the Java source files by running the command.
+8. Run the game using the following command.
 
 ## How to Play
 
